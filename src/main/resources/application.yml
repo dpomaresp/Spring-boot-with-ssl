@@ -1,0 +1,18 @@
+###### Tomcat ######
+server:
+  tomcat:
+    accesslog:
+      enabled: true
+###### Server ######
+  port: 443
+  ssl:
+    enabled: true
+    key-store: classpath:decaresystems_ie.jks
+    key-store-password: decaresystemsireland
+    key-password: spainportugaltenerifemadeira
+
+###### HTTP Spring ######
+spring:
+  http:
+    encoding:
+      charset: UTF-8
